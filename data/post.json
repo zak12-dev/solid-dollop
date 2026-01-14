@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "title": "Bienvenue sur le Mini Blog",
+    "slug": "bienvenue-mini-blog",
+    "content": "Ceci est le premier article de notre mini blog Nuxt 3. Vous pouvez le modifier ou en créer d'autres.",
+    "date": "2026-01-14",
+    "author": "Zaki Agokoli",
+    "type": "Présentation"
+  },
+  {
+    "id": 2,
+    "title": "Deuxième article",
+    "slug": "deuxieme-article",
+    "content": "Voici un autre article pour tester la lecture et le détail d'un article avec la route dynamique.",
+    "date": "2026-01-14",
+    "author": "Zaki Agokoli",
+    "type": "Actualité"
+  },
+  {
+    "id": 3,
+    "title": "Tech et Nuxt 3",
+    "slug": "tech-nuxt-3",
+    "content": "Un article pour parler de Nuxt 3 et de la création de blogs fullstack simples.",
+    "date": "2026-01-14",
+    "author": "Zaki Agokoli",
+    "type": "Tech"
+  }
+]
