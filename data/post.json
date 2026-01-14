@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "Découverte du nouvel iPhone 15",
+    "content": "Aujourd'hui, nous testons le nouvel iPhone 15 et voyons ses fonctionnalités innovantes.",
+    "image": "images/iphone15.jpg",
+    "created_at": "2026-01-14T09:00:00Z",
+    "updated_at": "2026-01-14T09:00:00Z"
+  },
+  {
+    "id": 2,
+    "title": "Recette facile : Gâteau au chocolat",
+    "content": "Une recette simple et rapide pour réaliser un gâteau au chocolat moelleux.",
+    "image": "images/gateau_choco.jpg",
+    "created_at": "2026-01-13T15:30:00Z",
+    "updated_at": "2026-01-13T15:30:00Z"
+  },
+  {
+    "id": 3,
+    "title": "Voyage à Bali : Guide pratique",
+    "content": "Découvrez les meilleures plages, restaurants et activités à Bali.",
+    "image": "images/bali_guide.jpg",
+    "created_at": "2026-01-12T10:00:00Z",
+    "updated_at": "2026-01-12T10:00:00Z"
+  },
+  {
+    "id": 4,
+    "title": "Top 5 des jeux vidéo en 2026",
+    "content": "Voici notre sélection des 5 meilleurs jeux vidéo à ne pas manquer cette année.",
+    "image": "images/top5_jeux.jpg",
+    "created_at": "2026-01-11T18:45:00Z",
+    "updated_at": "2026-01-11T18:45:00Z"
+  },
+  {
+    "id": 5,
+    "title": "Comment apprendre Python rapidement",
+    "content": "Des astuces et ressources pour devenir un pro en Python en un temps record.",
+    "image": "images/python_tuto.jpg",
+    "created_at": "2026-01-10T08:20:00Z",
+    "updated_at": "2026-01-10T08:20:00Z"
+  }
+]
