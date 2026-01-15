@@ -9,19 +9,11 @@
   },
   {
     "id": 2,
-    "title": "Recette facile : Gâteau au chocolat",
-    "content": "Une recette simple et rapide pour réaliser un gâteau au chocolat moelleux.",
+    "title": "i'm",
+    "content": "having lunch",
     "image": "images/gateau_choco.jpg",
     "created_at": "2026-01-13T15:30:00Z",
-    "updated_at": "2026-01-13T15:30:00Z"
-  },
-  {
-    "id": 3,
-    "title": "Voyage à Bali : Guide pratique",
-    "content": "Découvrez les meilleures plages, restaurants et activités à Bali.",
-    "image": "images/bali_guide.jpg",
-    "created_at": "2026-01-12T10:00:00Z",
-    "updated_at": "2026-01-12T10:00:00Z"
+    "updated_at": "2026-01-15T09:52:37.364Z"
   },
   {
     "id": 4,
@@ -32,11 +24,11 @@
     "updated_at": "2026-01-11T18:45:00Z"
   },
   {
-    "id": 5,
-    "title": "Comment apprendre Python rapidement",
-    "content": "Des astuces et ressources pour devenir un pro en Python en un temps record.",
-    "image": "images/python_tuto.jpg",
-    "created_at": "2026-01-10T08:20:00Z",
-    "updated_at": "2026-01-10T08:20:00Z"
+    "id": 6,
+    "title": "Découverte de samsung galaxy",
+    "content": " Aujourd'hui, nous testons les nouvelles samsung.",
+    "image": "/images/post-1768470088441-213997166.png",
+    "created_at": "2026-01-15T09:41:28.448Z",
+    "updated_at": "2026-01-15T09:41:28.448Z"
   }
 ]
