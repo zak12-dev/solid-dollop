@@ -15,17 +15,22 @@ export default defineEventHandler(async (event) => {
     // Extraire les champs texte et le fichier image
     const titleEntry = formData.find((p) => p.name === 'title');
     const contentEntry = formData.find((p) => p.name === 'content');
+    const slugEntry = formData.find((p) => p.name === 'slug');
+    const authorEntry = formData.find((p) => p.name === 'author');
+    const descriptionEntry = formData.find((p) => p.name === 'description');
     const imageFile = formData.find((p) => p.name === 'image');
 
     // Valider que tous les champs sont présents
-    if (!titleEntry || !contentEntry || !imageFile || !imageFile.filename) {
+    if (!titleEntry || !contentEntry || !slugEntry || !authorEntry || !descriptionEntry || !imageFile || !imageFile.filename) {
       setResponseStatus(event, 400);
-      return { error: 'Champs manquants. "title", "content" et "image" sont requis.' };
+      return { error: 'Champs manquants. "title", "content", "slug", "author", "description" et "image" sont requis.' };
     }
 
     const title = titleEntry.data.toString('utf-8');
     const content = contentEntry.data.toString('utf-8');
-
+    const slug = slugEntry.data.toString('utf-8');
+    const author = authorEntry.data.toString('utf-8');
+    const description = descriptionEntry.data.toString('utf-8');
     // === Gestion de l'upload de l'image ===
     const uniqueSuffix = Date.now() + '-' + Math.round(Math.random() * 1E9);
     const extension = extname(imageFile.filename);
@@ -42,6 +47,9 @@ export default defineEventHandler(async (event) => {
       id: posts.length > 0 ? Math.max(...posts.map(p => p.id)) + 1 : 1,
       title,
       content,
+      slug,
+      author,
+      description,
       image: imageUrl,
       created_at: new Date().toISOString(),
       updated_at: new Date().toISOString(),

@@ -3,6 +3,9 @@
     "id": 1,
     "title": "Découverte du nouvel iPhone 15",
     "content": "Aujourd'hui, nous testons le nouvel iPhone 15 et voyons ses fonctionnalités innovantes.",
+    "slug": "decouverte-du-nouvel-iphone-15",
+    "author": "John Doe",
+    "description": "Un aperçu complet du nouvel iPhone 15 d'Apple.",
     "image": "images/iphone15.jpg",
     "created_at": "2026-01-14T09:00:00Z",
     "updated_at": "2026-01-14T09:00:00Z"
@@ -11,24 +14,33 @@
     "id": 2,
     "title": "i'm",
     "content": "having lunch",
-    "image": "images/gateau_choco.jpg",
+    "slug": "breakfast",
+    "author": "DGB",
+    "description": "c'est l'heure de déjener",
+    "image": "images/token/javascript",
     "created_at": "2026-01-13T15:30:00Z",
-    "updated_at": "2026-01-15T09:52:37.364Z"
+    "updated_at": "2026-01-16T14:39:24.009Z"
   },
   {
     "id": 4,
     "title": "Top 5 des jeux vidéo en 2026",
     "content": "Voici notre sélection des 5 meilleurs jeux vidéo à ne pas manquer cette année.",
+    "slug": "top-5-des-jeux-video-en-2026",
+    "author": "Alice Johnson",
+    "description": "Découvrez les jeux vidéo les plus attendus de 2026.",
     "image": "images/top5_jeux.jpg",
     "created_at": "2026-01-11T18:45:00Z",
     "updated_at": "2026-01-11T18:45:00Z"
   },
   {
-    "id": 6,
+    "id": 7,
     "title": "Découverte de samsung galaxy",
     "content": " Aujourd'hui, nous testons les nouvelles samsung.",
-    "image": "/images/post-1768470088441-213997166.png",
-    "created_at": "2026-01-15T09:41:28.448Z",
-    "updated_at": "2026-01-15T09:41:28.448Z"
+    "slug": "decouverte-samsung",
+    "author": "freddo",
+    "description": "c'est la samsung qui gagne",
+    "image": "/images/post-1768573047034-700744267.png",
+    "created_at": "2026-01-16T14:17:27.047Z",
+    "updated_at": "2026-01-16T14:17:27.047Z"
   }
 ]

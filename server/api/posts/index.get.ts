@@ -4,7 +4,13 @@ import { readPosts } from '../../utils/db';
 export default defineEventHandler(async (event) => {
   try {
     const posts = await readPosts();
-    return posts;
+    
+    // retourner tous les champs sauf le champ content
+    const postsWithoutContent = posts.map(post =>{
+      const { content, ...postsWithoutContent } = post;
+      return postsWithoutContent;
+    })
+    return postsWithoutContent;
   } catch (error) {
     // En cas d'erreur (ex: fichier JSON malformé), on renvoie une erreur 500
     setResponseStatus(event, 500);
