@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+@theme {
+  --font-sans: 'Public Sans', sans-serif;
+  --font-gravitas: 'Gravitas One', cursive;
+  --font-cookie: 'Cookie', cursive;
+  --font-nova-square: 'Nova Square', cursive;
+}

@@ -1,8 +1,9 @@
 
 /// <reference path="app.config.d.ts" />
 /// <reference path="runtime-config.d.ts" />
-/// <reference types="C:/Users/LENOVO/Desktop/Nuxt JS/Blog-test/node_modules/.pnpm/@nuxt+nitro-server@4.2.2_db_6d57811d8bd5a36a956ffdac6aa545f3/node_modules/@nuxt/nitro-server/dist/index.mjs" />
-/// <reference path="middleware.d.ts" />
+/// <reference types="C:/Users/LENOVO/Desktop/Nuxt JS/solid-dollop/node_modules/.pnpm/@nuxt+nitro-server@4.2.2_db_40ef9a73304a3d38660ea758d366701a/node_modules/@nuxt/nitro-server/dist/index.mjs" />
+/// <reference path="../image/providers.d.ts" />
+/// <reference path="nitro-middleware.d.ts" />
 
 import type { RuntimeConfig } from 'nuxt/schema'
 import type { H3Event } from 'h3'

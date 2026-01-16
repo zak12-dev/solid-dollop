@@ -23,13 +23,10 @@
         "../node_modules/.pnpm/ofetch@1.5.1/node_modules/ofetch"
       ],
       "@unhead/vue": [
-        "../node_modules/.pnpm/@unhead+vue@2.1.2_vue@3.5.26/node_modules/@unhead/vue"
+        "../node_modules/.pnpm/@unhead+vue@2.1.2_vue@3.5.26_typescript@5.9.3_/node_modules/@unhead/vue"
       ],
       "@nuxt/devtools": [
-        "../node_modules/.pnpm/@nuxt+devtools@3.1.1_vite@7_d6a0d1bd51cebc64275389abae476289/node_modules/@nuxt/devtools"
-      ],
-      "vue": [
-        "../node_modules/.pnpm/vue@3.5.26/node_modules/vue"
+        "../node_modules/.pnpm/@nuxt+devtools@3.1.1_vite@7_d55d8b9a610e66f4056c25a9c1c60221/node_modules/@nuxt/devtools"
       ],
       "@vue/runtime-core": [
         "../node_modules/.pnpm/@vue+runtime-core@3.5.26/node_modules/@vue/runtime-core"
@@ -37,35 +34,29 @@
       "@vue/compiler-sfc": [
         "../node_modules/.pnpm/@vue+compiler-sfc@3.5.26/node_modules/@vue/compiler-sfc"
       ],
-      "vue-router": [
-        "../node_modules/.pnpm/vue-router@4.6.4_vue@3.5.26/node_modules/vue-router"
-      ],
-      "vue-router/auto-routes": [
-        "../node_modules/.pnpm/vue-router@4.6.4_vue@3.5.26/node_modules/vue-router/vue-router-auto-routes"
-      ],
       "unplugin-vue-router/client": [
-        "../node_modules/.pnpm/unplugin-vue-router@0.19.2__c3b685584f7873702f025da704a1f5d5/node_modules/unplugin-vue-router/client"
+        "../node_modules/.pnpm/unplugin-vue-router@0.19.2__fa74afa73bd813720667ab5e9ce6bb60/node_modules/unplugin-vue-router/client"
       ],
       "@nuxt/schema": [
         "../node_modules/.pnpm/@nuxt+schema@4.2.2/node_modules/@nuxt/schema"
       ],
       "nuxt": [
-        "../node_modules/.pnpm/nuxt@4.2.2_@parcel+watcher@_08922d82d8cd093e0915d1b6ef4e9c49/node_modules/nuxt"
+        "../node_modules/.pnpm/nuxt@4.2.2_@parcel+watcher@_bd12f3db9fb0357f95f63c54828dbf37/node_modules/nuxt"
       ],
       "vite/client": [
-        "../node_modules/.pnpm/vite@7.3.1_jiti@2.6.1_terser@5.44.1_yaml@2.8.2/node_modules/vite/client"
+        "../node_modules/.pnpm/vite@7.3.1_jiti@2.6.1_light_6f428a1b64caca8caf7d89f9e52fa3b2/node_modules/vite/client"
       ],
       "~": [
-        ".."
+        "../app"
       ],
       "~/*": [
-        "../*"
+        "../app/*"
       ],
       "@": [
-        ".."
+        "../app"
       ],
       "@/*": [
-        "../*"
+        "../app/*"
       ],
       "~~": [
         ".."
@@ -86,19 +77,28 @@
         "../shared/*"
       ],
       "#app": [
-        "../node_modules/.pnpm/nuxt@4.2.2_@parcel+watcher@_08922d82d8cd093e0915d1b6ef4e9c49/node_modules/nuxt/dist/app"
+        "../node_modules/.pnpm/nuxt@4.2.2_@parcel+watcher@_bd12f3db9fb0357f95f63c54828dbf37/node_modules/nuxt/dist/app"
       ],
       "#app/*": [
-        "../node_modules/.pnpm/nuxt@4.2.2_@parcel+watcher@_08922d82d8cd093e0915d1b6ef4e9c49/node_modules/nuxt/dist/app/*"
+        "../node_modules/.pnpm/nuxt@4.2.2_@parcel+watcher@_bd12f3db9fb0357f95f63c54828dbf37/node_modules/nuxt/dist/app/*"
       ],
       "vue-demi": [
-        "../node_modules/.pnpm/nuxt@4.2.2_@parcel+watcher@_08922d82d8cd093e0915d1b6ef4e9c49/node_modules/nuxt/dist/app/compat/vue-demi"
+        "../node_modules/.pnpm/nuxt@4.2.2_@parcel+watcher@_bd12f3db9fb0357f95f63c54828dbf37/node_modules/nuxt/dist/app/compat/vue-demi"
+      ],
+      "#ui": [
+        "../node_modules/.pnpm/@nuxt+ui@4.3.0_@babel+parse_e6219867e1eb026ae6ce03e2f6f7874a/node_modules/@nuxt/ui/dist/runtime"
+      ],
+      "#ui/*": [
+        "../node_modules/.pnpm/@nuxt+ui@4.3.0_@babel+parse_e6219867e1eb026ae6ce03e2f6f7874a/node_modules/@nuxt/ui/dist/runtime/*"
+      ],
+      "#color-mode-options": [
+        "./color-mode-options.mjs"
       ],
       "#vue-router": [
-        "../node_modules/.pnpm/vue-router@4.6.4_vue@3.5.26/node_modules/vue-router"
+        "../node_modules/.pnpm/vue-router@4.6.4_vue@3.5.26_typescript@5.9.3_/node_modules/vue-router"
       ],
       "#unhead/composables": [
-        "../node_modules/.pnpm/nuxt@4.2.2_@parcel+watcher@_08922d82d8cd093e0915d1b6ef4e9c49/node_modules/nuxt/dist/head/runtime/composables"
+        "../node_modules/.pnpm/nuxt@4.2.2_@parcel+watcher@_bd12f3db9fb0357f95f63c54828dbf37/node_modules/nuxt/dist/head/runtime/composables"
       ],
       "#imports": [
         "./imports"
